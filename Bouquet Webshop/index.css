@@ -23,6 +23,7 @@ header {
     grid-template-columns: repeat(2,1fr);
     column-gap: 80px ;
     margin-top: 64px;     
+    margin-bottom: 150px;
 }
 
 .header-text-box{
@@ -83,13 +84,14 @@ h1 {
 h2 {
     margin-top: 64px;
     font-size: 36px ;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     letter-spacing: 1.2px;
 }
 
 svg {
    width: 32px ;
    height: 32px ; 
+   margin-bottom: 24px;
 }
 
 .features-title{
@@ -101,6 +103,7 @@ svg {
 }
 
 .features-text{
+    margin-top: 32px;
     font-size: 18px ;
     line-height: 1.5;
     font-family: serif;
@@ -136,7 +139,7 @@ blockquote{
 }
 
 .testimonial-section{
-    margin-top:80px ;
+    margin-top:128px ;
     border: 1px solid #e85d04;
     background-color: #e85d04;
     border-radius: 25px;
@@ -154,6 +157,10 @@ blockquote{
 }
 
 /* paint */
+
+.buycards{
+    margin-top: 128px;
+}
 
 footer{
     margin-bottom: 50px;
