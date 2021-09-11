@@ -1,0 +1,86 @@
+@media (max-width: 38em) {
+  .container {
+    width: 45rem;
+    height: 65rem;
+  }
+
+  button {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.4rem;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+
+  .icon-container {
+    margin: 3.6rem 0;
+  }
+
+  .icon {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  .game-title {
+    color: black;
+    font-size: 6.8rem;
+    margin-top: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  #game-el {
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+  }
+
+  .btn-box {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .container {
+    width: 40rem;
+    height: 60rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+
+  .icon-container {
+    margin: 3.6rem 0;
+  }
+
+  .icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .game-title {
+    font-size: 6rem;
+  }
+
+  #game-el {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  #card-el,
+  #sum-el {
+    font-size: 2rem;
+  }
+
+  .btn-box {
+    margin-top: 12.5rem;
+  }
+}
+
+@media (max-width: 20em) {
+  button {
+    padding: 6px 12px;
+  }
+
+  .btn-box {
+    margin-top: 8rem;
+  }
+}
