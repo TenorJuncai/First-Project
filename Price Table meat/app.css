@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #f4978e ;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.mainbox{
+    background-color: #ffddd2;
+    border-radius: 10px;
+    padding: 30px 45px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h2{
+ 
+    color: #006d77;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.image{
+    width: 150px;
+    padding-bottom: 30px;
+}
+
+.animal{
+    border: 1px solid #ffddd2;
+    margin: 25px ;
+}
+
+.meat-describtion{
+    padding: 50px ;
+    
+}
+
+.item-description{
+
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-top: 15px;
+    /* border-top: 1px solid #e1f1ff; */
+    color: #006d77;
+    
+}
+
+span{
+    font-size: 2em;
+    color: #006d77;
+    display: block;
+    padding:1em 0;
+}
+
+.button{
+    /* border:1px solid white; */
+    background-color: #ffdab9 ;
+    padding: 25px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #006d77;
+}
+
+.button:hover{
+    background-color: #e29578;
+}
+
+@media(min-width:900px){
+    .mainbox{
+        flex-direction: row;
+    }
+
+    /* .animal{
+        padding: 20px 40px;
+    } */
+}
